@@ -1,0 +1,36 @@
+#slideMosaic{
+	position: relative;
+	margin-top: 36px;
+	border: 1px solid silver;
+	background-color: #242424;
+	overflow: hidden;
+	width: 400px;
+	height: 400px;
+	z-index: 1;
+	margin: 0 auto;
+	/*background-image: url('image4.jpg');*/
+}
+
+.slideMosaicCells{
+    position: absolute;
+    z-index: 50;
+}
+
+.slideMosaicOverlay{
+    position: absolute;
+    z-index: 5;
+}
+
+
+.outrasImagens{
+	display: none;
+}
+
+/*
+ * Não é necessaŕio para o plugin
+ * Not necessary for the plugin
+ */
+
+.thumbs{
+	text-align: center;
+}
